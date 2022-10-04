@@ -1,0 +1,44 @@
+nav{
+    position: top; 
+    top: 0;
+    z-index: 10;
+
+    display: grid;
+    min-height: 2em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2em;
+
+    text-align: left;
+    width: 100%;
+    min-height: 2em;
+
+    gap: 2rem;
+
+    padding: 1rem;
+}
+
+nav label{
+    font-size: 2em;
+}
+
+nav input[type="checkbox"]{
+    display: none;
+}
+
+nav input[type="checkbox"]:checked ~ ul{
+    display: flex;
+}
+
+nav ul{
+    display: none;
+    list-style: none;
+
+    font-size: 1.2em;
+
+    padding: 1rem;
+    gap: 3rem;
+}
+
+    nav li{
+        padding-bottom: 1rem;
+}
