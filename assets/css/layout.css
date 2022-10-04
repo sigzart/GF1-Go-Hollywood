@@ -1,5 +1,5 @@
 body{
-    min-height: 100vh;
+    min-height: 100rem;
     display: flex;
     flex-direction: column;
 }
@@ -16,11 +16,11 @@ main, section, header{
 
     gap: 1em;
 
-    background-color: var(--light-color);
+    background-color: var(--base-color);
 }
 
 main{
-    background-color: var(--light-color);
+    background-color: var(--base-color);
 }
 
 footer{
@@ -34,7 +34,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 
-    background-color: var(--white-color);
+    background-color: var(--base-color);
 }
 
 .width-full{
