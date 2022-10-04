@@ -6,25 +6,27 @@
 }
 
 body{
-    background-color: var(--light-color);
+    background-color: var(--base-color);
 
-    color: var(--base-color);
+    color: var(--light-color);
     font-family: var(--base-font);
+
+    align-self: center;
 }
 
 h1{
-    color: var(--base-color);
+    color: var(--light-color);
     font-family: var(--accent-font);
     font-size: 4em;
 }
 
 a{
     text-decoration: none;
-    color: var(--base-color);
+    color: var(--soft-color);
 }
 
 a:hover{
-    color: var(--medium-color);
+    color: var(--soft-color);
 }
 
 ul{
