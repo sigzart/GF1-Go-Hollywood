@@ -16,11 +16,11 @@ main, section, header{
 
     gap: 1em;
 
-    background-color: var(--base-color);
+    background-color: transparent;
 }
 
 main{
-    background-color: var(--base-color);
+    background-color: transparent;
 }
 
 footer{
@@ -34,7 +34,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 
-    background-color: var(--base-color);
+    background-color: var(--accent-color);
 }
 
 .width-full{
