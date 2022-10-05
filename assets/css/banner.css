@@ -2,17 +2,11 @@
     top: 0;
     z-index: -10;
 
-    width: 60rem;
-    height: 20rem;
+    width: 99vw;
+    height: 20vh;
 
     object-fit: cover;
     overflow: hidden;
 
     align-items: center;
-}
-
-@media screen and (max-width: 600px){
-    .header-text{
-        font-size: 2rem;
-    }
 }
