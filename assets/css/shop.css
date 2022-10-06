@@ -19,7 +19,7 @@
 }
 
 .shop article img{
-    width: 100%;
+    width: 40vh;
     height: 40vh;
 
     object-fit: cover;
