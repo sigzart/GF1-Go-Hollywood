@@ -8,3 +8,7 @@
     justify-items: space-around;
     align-self: center;
 }
+
+nav label img:hover{
+    opacity: 0.6;
+}
