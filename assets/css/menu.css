@@ -42,3 +42,7 @@ nav ul{
     nav li{
         padding-bottom: 1rem;
 }
+
+nav img{
+    height: 2em;
+}
