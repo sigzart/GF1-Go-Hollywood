@@ -40,7 +40,7 @@ footer{
     margin-top: auto;
     bottom: 0;
 
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 
@@ -53,6 +53,26 @@ footer{
 
 .width-70{
     width: 70%;
+}
+
+.dark-font{
+    color: var(--black-color)
+}
+
+div i{
+    color: var(--black-color);
+}
+
+.dark-font:hover{
+    opacity: 0.6;
+}
+
+div i:hover{
+    opacity: 0.6;
+}
+
+.smaller-h1{
+    font-size: 3em;
 }
 
 @media screen and (max-width: 600px){

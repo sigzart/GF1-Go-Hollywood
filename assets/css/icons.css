@@ -1,3 +1,11 @@
+.some-icons a{
+    display: flex;
+
+    font-size: 4em;
+
+    flex-direction: row;
+}
+
 .some-icons img{
     width: 30vw;
     height: 30vh;
