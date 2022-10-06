@@ -1,0 +1,27 @@
+.shop{
+    margin: 2rem auto;
+    gap: 2em;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    align-items: flex-start;
+}
+
+.shop article{
+    width: 40vh;
+}
+
+.shop article:hover{
+    opacity: 0.6;
+}
+
+.shop article img{
+    width: 100%;
+    height: 40vh;
+
+    object-fit: cover;
+    overflow: hidden;
+}
