@@ -4,7 +4,17 @@ body{
     flex-direction: column;
 }
 
-main, section, header{
+header{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: transparent;
+}
+
+main, section{
     display: flex;
 
     padding: 2em;
